@@ -26,7 +26,7 @@ Input: 4
 Output: "1211"
 
 Mycode:
-    class Solution {
+ '''   class Solution {
     public:
         string countAndSay(int n) {
             if (n==1)   
@@ -107,4 +107,4 @@ Mycode:
         //     }
         //     return p;
         // }
-    };
+    };'''
