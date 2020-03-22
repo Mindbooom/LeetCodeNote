@@ -9,3 +9,5 @@
 3.dummyhead用法 148.<br>
 ## 字符串笔记
 1. 合并两个字符串或数组时，如果从前往后要重复多次，那么可以考虑从后往前减少次数。 from 剑指offer 2.
+## 图笔记
+1. 使用vector建立图结构。 from Problems_not_from_leetcode graph 有序图
