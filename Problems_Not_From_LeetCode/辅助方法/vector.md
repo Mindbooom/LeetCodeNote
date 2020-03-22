@@ -1,17 +1,18 @@
 ## 初始化
 1.直接用初始化方法
-
+```c++
  vector<vector<int> > newOne(r, vector<int>(c, 0));
-
+```
 2.用resize()来控制大小
-
+```c++
     vector<vector<int> > res;
         res.resize(r);//r行
         for (int k = 0; k < r; ++k){
             res[k].resize(c);//每行为c列
         }
-
+```
 3. 已知数据范围，直接初始化
+```c++
 const int M = 100003;
 vector<int> E[M];
  
@@ -24,6 +25,7 @@ int main(){
         E[v].push_back(u);
         
     }
+```
 ## 添加
 1. push_back()
 在尾部添加
