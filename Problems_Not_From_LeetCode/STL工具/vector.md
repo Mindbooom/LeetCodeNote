@@ -30,3 +30,8 @@ int main(){
 1. push_back()
 在尾部添加
 2. 按照数组的方法直接赋值
+## 取出最后一个元素
+```c++
+intVector[intVector.size() - 1]; // 方式1
+intVector.back();                // 方式2
+```
