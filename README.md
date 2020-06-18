@@ -1,2 +1,3 @@
 # LeetCodeNote
-The note of solving problems from LeetCode
+The note of solving programming problems.
+
